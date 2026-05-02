@@ -119,7 +119,7 @@ end
 -- Run the script after key verification
 local function runMainScript()
     -- Your original script logic here
-    local Games = loadstring(game:HttpGet("https://raw.githubusercontent.com/kadotheonly/da-hood-star/refs/heads/main/Recreational%20menu%20%3A)%7C%20SB"))()
+    local Games = loadstring(game:HttpGet("https://raw.githubusercontent.com/Dodgebros/Leaky777/refs/heads/main/SBFREE",true))()
 
     for PlaceID, Execute in pairs(Games) do
         if PlaceID == game.PlaceId then
